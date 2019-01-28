@@ -1,0 +1,554 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "verify albums api",
+        "description": "",
+        "id": "rest-api-call-with-cucumber-demo;verify-albums-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2784707846,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user send a GET request to \"http://jsonplaceholder.typicode.com/albums\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jsonplaceholder.typicode.com/albums",
+                  "offset": 28
+                }
+              ],
+              "location": "DemoRestAPIStepDef.user_send_a_GET_request_to(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4198614,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 22
+                }
+              ],
+              "location": "DemoRestAPIStepDef.status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "validate Album Size",
+        "description": "",
+        "id": "rest-api-call-with-cucumber-demo;validate-album-size",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 449243718,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sends a GET request to \"http://jsonplaceholder.typicode.com/albums\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jsonplaceholder.typicode.com/albums",
+                  "offset": 29
+                }
+              ],
+              "location": "DemoRestAPIStepDef.user_sends_a_GET_request_to(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104157,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "album size should be 100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 21
+                }
+              ],
+              "location": "DemoRestAPIStepDef.album_size_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "verify users api",
+        "description": "",
+        "id": "rest-api-call-with-cucumber-demo;verify-users-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 307129471,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user calls the user api \"http://jsonplaceholder.typicode.com/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jsonplaceholder.typicode.com/users",
+                  "offset": 25
+                }
+              ],
+              "location": "DemoRestAPIStepDef.user_calls_the_user_api(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96935,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "response status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 31
+                }
+              ],
+              "location": "DemoRestAPIStepDef.response_status_code_should_be(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21563656,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "on response user \"Bret\" should belong to company \"Romaguera-Crona\" and city \"Gwenborough\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bret",
+                  "offset": 18
+                },
+                {
+                  "val": "Romaguera-Crona",
+                  "offset": 50
+                },
+                {
+                  "val": "Gwenborough",
+                  "offset": 77
+                }
+              ],
+              "location": "DemoRestAPIStepDef.on_response_user_should_belong_to_company_and_city(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "verify users api for individual users",
+        "description": "",
+        "id": "rest-api-call-with-cucumber-demo;verify-users-api-for-individual-users;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 301257494,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user calls the user api to match user and company \"http://jsonplaceholder.typicode.com/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jsonplaceholder.typicode.com/users",
+                  "offset": 51
+                }
+              ],
+              "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2027271,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "on response userName \"Antonette\" should belong to company \"Deckow-Crist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Antonette",
+                  "offset": 22
+                },
+                {
+                  "val": "Deckow-Crist",
+                  "offset": 59
+                }
+              ],
+              "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "verify users api for individual users",
+        "description": "",
+        "id": "rest-api-call-with-cucumber-demo;verify-users-api-for-individual-users;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 305042518,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user calls the user api to match user and company \"http://jsonplaceholder.typicode.com/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jsonplaceholder.typicode.com/users",
+                  "offset": 51
+                }
+              ],
+              "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1515227,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "on response userName \"Samantha\" should belong to company \"Romaguera-Jacobson\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Samantha",
+                  "offset": 22
+                },
+                {
+                  "val": "Romaguera-Jacobson",
+                  "offset": 58
+                }
+              ],
+              "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "verify users api for individual users",
+        "description": "",
+        "id": "rest-api-call-with-cucumber-demo;verify-users-api-for-individual-users;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 312229770,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user calls the user api to match user and company \"http://jsonplaceholder.typicode.com/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jsonplaceholder.typicode.com/users",
+                  "offset": 51
+                }
+              ],
+              "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1498881,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "on response userName \"Karianne\" should belong to company \"Robel-Corkery\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Karianne",
+                  "offset": 22
+                },
+                {
+                  "val": "Robel-Corkery",
+                  "offset": 58
+                }
+              ],
+              "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "verify users api for individual users",
+        "description": "",
+        "id": "rest-api-call-with-cucumber-demo;verify-users-api-for-individual-users;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 359150850,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user calls the user api to match user and company \"http://jsonplaceholder.typicode.com/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jsonplaceholder.typicode.com/users",
+                  "offset": 51
+                }
+              ],
+              "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 926774,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "on response userName \"Bret\" should belong to company \"Romaguera-Crona\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bret",
+                  "offset": 22
+                },
+                {
+                  "val": "Romaguera-Crona",
+                  "offset": 54
+                }
+              ],
+              "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "verify users api for individual users",
+        "description": "",
+        "id": "rest-api-call-with-cucumber-demo;verify-users-api-for-individual-users;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 293700749,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user calls the user api to match user and company \"http://jsonplaceholder.typicode.com/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jsonplaceholder.typicode.com/users",
+                  "offset": 51
+                }
+              ],
+              "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1564644,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "on response userName \"Antonette\" should belong to company \"Deckow-Crist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Antonette",
+                  "offset": 22
+                },
+                {
+                  "val": "Deckow-Crist",
+                  "offset": 59
+                }
+              ],
+              "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "verify users api for individual users",
+        "description": "",
+        "id": "rest-api-call-with-cucumber-demo;verify-users-api-for-individual-users;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 287550891,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user calls the user api to match user and company \"http://jsonplaceholder.typicode.com/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jsonplaceholder.typicode.com/users",
+                  "offset": 51
+                }
+              ],
+              "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1462007,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "on response userName \"Kamren\" should belong to company \"Keebler LLC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kamren",
+                  "offset": 22
+                },
+                {
+                  "val": "Keebler LLC",
+                  "offset": 56
+                }
+              ],
+              "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "verify users api for individual users",
+        "description": "",
+        "id": "rest-api-call-with-cucumber-demo;verify-users-api-for-individual-users;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 285922764,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user calls the user api to match user and company \"http://jsonplaceholder.typicode.com/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://jsonplaceholder.typicode.com/users",
+                  "offset": 51
+                }
+              ],
+              "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1236206,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "on response userName \"Leopoldo_Corkery\" should belong to company \"Considine-Lockman\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Leopoldo_Corkery",
+                  "offset": 22
+                },
+                {
+                  "val": "Considine-Lockman",
+                  "offset": 66
+                }
+              ],
+              "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Rest API Call with Cucumber demo",
+    "description": "",
+    "id": "rest-api-call-with-cucumber-demo",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/DemoRestAPI.feature"
+  }
+]
