@@ -26,6 +26,7 @@ Scenario Outline: verify users api for individual users
     |	Antonette	|	Deckow-Crist	|
     |	Kamren		|	Keebler LLC		|
     |	Leopoldo_Corkery|Considine-Lockman|
+    |	Elwyn.Skiles|	Johns Group		|
     
     
     

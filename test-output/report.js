@@ -34,7 +34,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.user_send_a_GET_request_to(String)"
 });
 formatter.result({
-  "duration": 2784707846,
+  "duration": 3952482865,
   "status": "passed"
 });
 formatter.match({
@@ -47,7 +47,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.status_code_should_be(int)"
 });
 formatter.result({
-  "duration": 4198614,
+  "duration": 3515127,
   "status": "passed"
 });
 formatter.scenario({
@@ -78,7 +78,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.user_sends_a_GET_request_to(String)"
 });
 formatter.result({
-  "duration": 449243718,
+  "duration": 405101440,
   "status": "passed"
 });
 formatter.match({
@@ -91,7 +91,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.album_size_should_be(int)"
 });
 formatter.result({
-  "duration": 104157,
+  "duration": 114421,
   "status": "passed"
 });
 formatter.scenario({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.user_calls_the_user_api(String)"
 });
 formatter.result({
-  "duration": 307129471,
+  "duration": 413369421,
   "status": "passed"
 });
 formatter.match({
@@ -140,7 +140,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.response_status_code_should_be(int)"
 });
 formatter.result({
-  "duration": 96935,
+  "duration": 129247,
   "status": "passed"
 });
 formatter.match({
@@ -161,7 +161,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.on_response_user_should_belong_to_company_and_city(String,String,String)"
 });
 formatter.result({
-  "duration": 21563656,
+  "duration": 22989550,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -251,6 +251,14 @@ formatter.examples({
       ],
       "line": 28,
       "id": "rest-api-call-with-cucumber-demo;verify-users-api-for-individual-users;;8"
+    },
+    {
+      "cells": [
+        "Elwyn.Skiles",
+        "Johns Group"
+      ],
+      "line": 29,
+      "id": "rest-api-call-with-cucumber-demo;verify-users-api-for-individual-users;;9"
     }
   ],
   "keyword": "Examples"
@@ -287,7 +295,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
 });
 formatter.result({
-  "duration": 301257494,
+  "duration": 334153036,
   "status": "passed"
 });
 formatter.match({
@@ -304,7 +312,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
 });
 formatter.result({
-  "duration": 2027271,
+  "duration": 1485196,
   "status": "passed"
 });
 formatter.scenario({
@@ -339,7 +347,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
 });
 formatter.result({
-  "duration": 305042518,
+  "duration": 379792673,
   "status": "passed"
 });
 formatter.match({
@@ -356,7 +364,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
 });
 formatter.result({
-  "duration": 1515227,
+  "duration": 1069326,
   "status": "passed"
 });
 formatter.scenario({
@@ -391,7 +399,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
 });
 formatter.result({
-  "duration": 312229770,
+  "duration": 321580382,
   "status": "passed"
 });
 formatter.match({
@@ -408,7 +416,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
 });
 formatter.result({
-  "duration": 1498881,
+  "duration": 971251,
   "status": "passed"
 });
 formatter.scenario({
@@ -443,7 +451,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
 });
 formatter.result({
-  "duration": 359150850,
+  "duration": 1322263108,
   "status": "passed"
 });
 formatter.match({
@@ -460,7 +468,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
 });
 formatter.result({
-  "duration": 926774,
+  "duration": 1180706,
   "status": "passed"
 });
 formatter.scenario({
@@ -495,7 +503,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
 });
 formatter.result({
-  "duration": 293700749,
+  "duration": 1299022287,
   "status": "passed"
 });
 formatter.match({
@@ -512,7 +520,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
 });
 formatter.result({
-  "duration": 1564644,
+  "duration": 1391302,
   "status": "passed"
 });
 formatter.scenario({
@@ -547,7 +555,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
 });
 formatter.result({
-  "duration": 287550891,
+  "duration": 294955961,
   "status": "passed"
 });
 formatter.match({
@@ -564,7 +572,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
 });
 formatter.result({
-  "duration": 1462007,
+  "duration": 1344925,
   "status": "passed"
 });
 formatter.scenario({
@@ -599,7 +607,7 @@ formatter.match({
   "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
 });
 formatter.result({
-  "duration": 285922764,
+  "duration": 360427350,
   "status": "passed"
 });
 formatter.match({
@@ -616,7 +624,59 @@ formatter.match({
   "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
 });
 formatter.result({
-  "duration": 1236206,
+  "duration": 1420192,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 29,
+  "name": "verify users api for individual users",
+  "description": "",
+  "id": "rest-api-call-with-cucumber-demo;verify-users-api-for-individual-users;;9",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 17,
+  "name": "user calls the user api to match user and company \"http://jsonplaceholder.typicode.com/users\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 18,
+  "name": "on response userName \"Elwyn.Skiles\" should belong to company \"Johns Group\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "http://jsonplaceholder.typicode.com/users",
+      "offset": 51
+    }
+  ],
+  "location": "DemoRestAPIStepDef.user_calls_the_user_api_to_match_user_and_company(String)"
+});
+formatter.result({
+  "duration": 943435603,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Elwyn.Skiles",
+      "offset": 22
+    },
+    {
+      "val": "Johns Group",
+      "offset": 62
+    }
+  ],
+  "location": "DemoRestAPIStepDef.on_responses_user_should_belong_to_company(String,String)"
+});
+formatter.result({
+  "duration": 982654,
   "status": "passed"
 });
 });
